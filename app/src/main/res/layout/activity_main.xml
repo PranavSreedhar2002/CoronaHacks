@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:clickable="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="20dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/onlinetitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Select what interests you:" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="50dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/STEMButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/circle_button"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/STEMText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="STEM" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:paddingTop="15dp"
+    android:paddingRight="30dp"
+    android:paddingLeft="80dp"
+    android:background="#ffff"
+    android:clickable="true">
+
+        <Spinner
+            android:id="@+id/STEMspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="50dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/HumanitiesButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/circle_button"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/HumanitiesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Humanities" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="80dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Spinner
+            android:id="@+id/Humanitiesspinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="50dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/PerformingArtsButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/circle_button"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/PerformingArtsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Performing Arts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="80dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Spinner
+            android:id="@+id/PerformingArtsSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="50dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/VisualArtsButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/circle_button"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/VisualArtsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Visual Arts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="80dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Spinner
+            android:id="@+id/VisualArtsSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="50dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/LifeSkillsButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/circle_button"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/LifeSkillsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Life Skills" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="80dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Spinner
+            android:id="@+id/LifeSkillsSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="50dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/HealthFitnessButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/circle_button"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/HealthFitnessText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Health and Fitness" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="80dp"
+        android:background="#ffff"
+        android:clickable="true">
+
+        <Spinner
+            android:id="@+id/HealthFitnessSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:background="#ffff"
+        android:layout_gravity="center"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/continueButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:background="#8BC34A"
+            android:paddingTop="10dp"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:textColor="#0C0303"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Continue" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

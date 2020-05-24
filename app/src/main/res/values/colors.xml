@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="beginner">#A1E653</color>
+
+
+    <color name="intermediate">#DBA302</color>
+
+    <color name="advanced">#AF2B00</color>
+
+    <color name="courseSubject">#B4BAC0</color>
+
+    <color name="courseName">#2B3D4D</color>
+
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.075"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:background="#ffff"
+            android:layout_gravity="center"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/exploreTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_centerInParent="true"
+                android:textColor="#003D71"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Explore categories" />
+
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.075"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_centerInParent="true"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:backgroundTint="#FF5722"
+            android:textColor="#000000"
+            android:id="@+id/interestExplore"
+            android:textStyle="bold"
+            android:text="Preferences"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_centerInParent="true"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:backgroundTint="#F0DC32"
+            android:textColor="#000000"
+            android:id="@+id/recommendedExplore"
+            android:textStyle="bold"
+            android:text="Recommended"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.283"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:backgroundTint="#FF9800"
+                android:textColor="#000000"
+                android:id="@+id/stemExplore"
+                android:textStyle="bold"
+                android:text="STEM"/>
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:backgroundTint="#9C27B0"
+                android:textColor="#000000"
+                android:id="@+id/humanitiesExplore"
+                android:textStyle="bold"
+                android:text="Humanities"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.283"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:backgroundTint="#C29ACA"
+                android:textColor="#000000"
+                android:id="@+id/paExplore"
+                android:textStyle="bold"
+                android:text="Performing Arts"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="#000000"
+                android:id="@+id/vaExplore"
+                android:textStyle="bold"
+                android:text="Visual Arts"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.283"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#000000"
+                android:id="@+id/lsExplore"
+                android:textStyle="bold"
+                android:text="Life Skills"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:backgroundTint="#009688"
+                android:textColor="#000000"
+                android:id="@+id/hfExplore"
+                android:textStyle="bold"
+                android:text="Health and Fitness"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
